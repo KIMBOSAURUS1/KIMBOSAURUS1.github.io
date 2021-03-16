@@ -1,0 +1,97 @@
+
+
+
+h1{
+	color: #FF4500;
+	border: solid 10px;
+	padding: 3vw;
+	margin: 100px;
+	background-color:yellow;
+	width:50px;
+	height:50px;
+	text-align: center;
+	position: relative;
+	top: 100px; left: 100px;
+	border-radius: 50%;
+}
+
+h1:hover { 
+	background-color: aqua;
+	font-size: 100px;
+	border: solid 20px;
+	padding: 5vw;
+	text-align: center;
+	position: relative;
+}
+body{
+	background: #FFFFF0;
+	background-image: url(https://www.foodbusinessnews.net/ext/resources/2019/3/WalmartFreshGrocery_Lead.jpg?t=1551970864&width=1080);
+}
+
+
+/*rect(30,30,30,30)*/
+h2{
+	color: blue;
+	border: solid 10px;
+	padding: 3vw;
+	margin: 100px;
+	background-color: orange;
+	width: 60px;
+	text-align: center;
+
+	position: relative;
+	top: 10px; left: 300px;
+
+	border-radius: 25%;
+
+	animation: .5s linear 1s infinite alternate;
+
+}
+
+h2:hover {
+	background-color: purple;
+	font-size: 40px	
+}
+
+h3{
+	color: #FF4500;
+	border: solid 10px;
+	padding: 3vw;
+	margin: 100px;
+	background-color:yellow;
+	width:50px;
+	height:50px;
+	text-align: center;
+	position: relative;
+	top: -300px; left: 500px;
+	border-radius: 50%;
+}
+
+h3:hover{
+	background-color: aqua;
+	font-size: 100px;
+	border: solid 20px;
+	padding: 5vw;
+}
+
+h4{
+	color: red;
+	border: solid 8px;
+	padding: 2vw;
+	margin: 100px;
+	background-color:pink;
+
+	text-align: center;
+	position: relative;
+	top: -850px; left: 50px;
+
+	font-size: 40px;
+
+	
+}
+
+
+
+
+
+
