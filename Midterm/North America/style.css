@@ -1,0 +1,59 @@
+body {
+
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: right;
+  background-image: url(https://www.prettywildworld.com/wp-content/uploads/2017/04/The-Most-Breathtaking-Natural-Wonders-in-North-America-Zion-Canyon.jpg);
+  background-color: #FFFFF1;
+  background-size: cover;
+
+}
+
+.container {
+	display:grid;
+	grid: repeat(2,60px) / auto-flow 80px;
+}
+
+.flip-card {
+  background-color: transparent;
+  flex-direction: row;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  border: transparent 1px;
+	padding: 2vw;
+	margin: 5px;
+	border-radius: 20%;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,1);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  /*background-color: #bbb;*/
+  color: black;
+}
+
+.flip-card-back {
+  background-color:#078C09;
+  color: black;
+  transform: rotateY(180deg);
+}
