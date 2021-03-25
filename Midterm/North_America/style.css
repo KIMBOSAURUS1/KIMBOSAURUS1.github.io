@@ -2,18 +2,16 @@ body {
 
   font-family: Arial, Helvetica, sans-serif;
   text-align: right;
-  background-image: url(https://www.telegraph.co.uk/content/dam/Travel/2019/May/amazon-iStock-1044285108.jpg);
-  background-color: #FFFFF1;
+  background-image: url(https://www.prettywildworld.com/wp-content/uploads/2017/04/The-Most-Breathtaking-Natural-Wonders-in-North-America-Zion-Canyon.jpg);
+  background-color: #343434;
   background-size: cover;
 
 }
 
 h2{
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-around;
+  padding-right: 4vw;
+  padding-bottom: 2vw;
 }
-
 
 .container {
 	display:grid;
@@ -60,7 +58,7 @@ h2{
 }
 
 .flip-card-back {
-  background-color:#004F01;
-  color: white;
+  background-color:#078C09;
+  color: black;
   transform: rotateY(180deg);
 }

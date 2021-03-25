@@ -2,9 +2,11 @@ body {
 
   font-family: Arial, Helvetica, sans-serif;
   text-align: right;
-  background-image: url(https://www.prettywildworld.com/wp-content/uploads/2017/04/The-Most-Breathtaking-Natural-Wonders-in-North-America-Zion-Canyon.jpg);
-  background-color: #FFFFF1;
+  background-image: url(https://www.triponary.com/wp-content/uploads/2018/08/FB_IMG_1526632262956.jpg);
+  background-color: #E4D8FF;
   background-size: cover;
+
+  padding: 3vw;
 
 }
 
@@ -53,7 +55,8 @@ body {
 }
 
 .flip-card-back {
-  background-color:#078C09;
+  background-color: #FFAA64;
+  /*background-color:#FFCA13;*/
   color: black;
   transform: rotateY(180deg);
 }

@@ -1,20 +1,23 @@
 body {
 
   font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  background-color: #FFFFF1;
-  background-image: url(https://cdn3.dpmag.com/k2/items/cache/0352c877fa2b9ad266c1cefb1f0c8b3f_XL.jpg);
+  text-align: right;
+  background-color: #331000;
+  background-image: url(https://wallpaperaccess.com/full/108054.jpg);
   background-size: cover;
   image-rendering: auto;
   image-rendering: crisp-edges;
-  
+
+  /*border: transparent 2px;
+  padding-left: 4vw;
+  margin: 20px;
+  */
 
 }
 
-h3 {
-  border: transparent 2px;
-  padding: 2vw;
-  margin: 20px;
+h2{
+  padding-right: 4vw;
+  padding-bottom: 2vw;
 }
 
 .container {

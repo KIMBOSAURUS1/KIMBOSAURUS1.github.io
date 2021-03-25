@@ -1,12 +1,18 @@
 body {
 
   font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  background-image: url(https://ichef.bbci.co.uk/news/976/cpsprodpb/35B1/production/_100054731_20171126-0334-12.jpg);
+  text-align: right;
+  background-image: url(https://www.telegraph.co.uk/content/dam/Travel/2019/May/amazon-iStock-1044285108.jpg);
   background-color: #FFFFF1;
   background-size: cover;
 
 }
+
+h2{
+  padding-right: 4vw;
+  padding-bottom: 2vw;
+}
+
 
 .container {
 	display:grid;
@@ -53,8 +59,7 @@ body {
 }
 
 .flip-card-back {
-  background-color: #FF8914;
-  /*background-color:#FFCA13;*/
-  color: black;
+  background-color:#004F01;
+  color: white;
   transform: rotateY(180deg);
 }

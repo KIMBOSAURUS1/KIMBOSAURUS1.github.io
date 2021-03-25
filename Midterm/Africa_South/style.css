@@ -2,9 +2,9 @@ body {
 
   font-family: Arial, Helvetica, sans-serif;
   text-align: right;
-  background-image: url(https://c402277.ssl.cf1.rackcdn.com/photos/18455/images/hero_full/Medium_WW243241.jpg?1579018284);
+  background-image: url(https://cdn.britannica.com/92/140492-050-0D2E3D22/Australian-Outback-trees-grasses-savanna-landscapes.jpg);
   /*background-image: url(https://a-z-animals.com/media/animals/images/original/black_rhinoceros1.jpg);*/
-  background-color: #FFFFF1;
+  background-color: #342700;
   background-size: cover;
 
   border: transparent 1px;
@@ -18,7 +18,7 @@ body {
   background-size: cover;
   }
 
-.img1 { background-image: url(https://c402277.ssl.cf1.rackcdn.com/photos/18455/images/hero_full/Medium_WW243241.jpg?1579018284);}
+.img1 { background-image: url(https://www.discoverafrica.com/images/feat_image_why_go.jpg);}
 .img2 { background-image: url(https://a-z-animals.com/media/animals/images/original/black_rhinoceros1.jpg); }
 
 
@@ -34,8 +34,8 @@ body {
 .img2 { background-image: url(https://a-z-animals.com/media/animals/images/original/black_rhinoceros1.jpg); }
 */
 .container {
-	display:grid;
-	grid: repeat(2,60px) / auto-flow 80px;
+  display:grid;
+  grid: repeat(2,60px) / auto-flow 80px;
 }
 
 .flip-card {
@@ -45,9 +45,9 @@ body {
   height: 300px;
   perspective: 1000px;
   border: transparent 1px;
-	padding: 2vw;
-	margin: 5px;
-	border-radius: 20%;
+  padding: 2vw;
+  margin: 5px;
+  border-radius: 20%;
 }
 
 .flip-card-inner {
@@ -78,7 +78,7 @@ body {
 }
 
 .flip-card-back {
-  background-color:#FFF982;
+  background-color:#FFC517;
   color: black;
   transform: rotateY(180deg);
 }
