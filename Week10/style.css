@@ -1,0 +1,25 @@
+body{
+    background-color:lemonchiffon;
+    
+}
+
+#giftbox {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+
+}
+
+#imgDiv {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+#giftboxB {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+
+}
