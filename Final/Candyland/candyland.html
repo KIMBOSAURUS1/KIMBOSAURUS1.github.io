@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>  
+        <title>Candyland</title>
+        <link rel="shortcut icon" type="image/jpg" href="https://pngimg.com/uploads/lollipop/lollipop_PNG13814.png" />
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
+        <script src="java.js"></script>
+    </head>
+
+<body>
+    <!-- Background Video -->
+    <div class="video-background">
+        <video autoplay muted loop id="myVideo">
+            <source src="candyland_vid.mp4" type="video/mp4">
+        </video>
+        
+       <!-- Teleports -->
+
+        <div id="imgDiv">
+            <!-- Gummy Bear link -->
+            <a href="../Concert/concert.html">
+                <img id="candyking" src="candyking.png" onclick = "changePlace('candyking')">  
+            </a>
+            <a href="../Minecraft/minecraft.html">
+                <img id="gummybear" src="gummybear.png" onclick = "changePlace('gummybear')">  
+            </a>
+            <a href="../Snow/snow.html">
+                <img id="gummybear2" src="gummybear2.png" onclick = "changePlace('gummybear2')">  
+            </a>
+            <a href="../Final_Main_Page/index.html">
+                <img id="gummybear3" src="gummybear3.png" onclick = "changePlace('gummybear3')">  
+            </a>
+            <a href="../Trees/index.html">
+                <img id="gummybear4" src="gummybear4.png" onclick = "changePlace('gummybear4')">  
+            </a>
+            <a href="../Roller_Coaster/ride.html">
+                <img id="gummybear5" src="gummybear5.png" onclick = "changePlace('gummybear5')">  
+            </a>
+            <!-- Bee link -->
+            <img id="bee" src="bee.png" onclick = "changePlace('bee')">
+        </div>
+    </div>
+</body>
+
+  </html>

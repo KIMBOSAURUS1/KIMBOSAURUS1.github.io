@@ -1,0 +1,62 @@
+body{
+    background-color: lightskyblue;
+}
+
+#myVideo {
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 1500px;
+    background: transparent url(Trees.mp4)no-repeat 0 0;
+  }
+
+#seagull {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    z-index: 2;
+}
+
+#imgDiv {
+    display: flex;
+    justify-content: space-between;
+ }
+
+#bee {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    padding: 3vw;
+    z-index: 3;
+    animation-name: motion;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+a{
+    margin: auto;
+    z-index: 4;
+}
+
+@keyframes motion {
+    from {
+        transform: translate(-30px,100px);
+    }
+
+    to{
+        transform: translate(600px, 400px);
+    }
+    
+    to {
+        transform: translate(1920px,300px);
+    }
+}
+
+

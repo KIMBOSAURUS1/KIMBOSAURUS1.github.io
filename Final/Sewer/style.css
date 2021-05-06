@@ -1,0 +1,56 @@
+body{
+    background-color: lightskyblue;
+    background-image: url(table.jpg);
+    background-size: cover;
+}
+
+#myVideo {
+    position: absolute;
+    width: 1000px;
+    height: 500px;
+    left: 200px;
+    top: 142px;
+    z-index: 2;
+    background: transparent url(sewer_vid.mp4)no-repeat 0 0;
+  }
+
+#tv {
+    position: absolute;
+    width: 900px;
+    height: 555px;
+    left: 250px;
+    top: 138px;
+  
+    z-index: 3;
+}
+
+#imgDiv {
+    display: flex;
+    justify-content: space-between;
+ }
+
+#bee {
+    position: fixed;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    z-index: 1;
+    animation-name: motion;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+a{
+    margin: auto;
+    z-index: 4;
+}
+
+@keyframes motion {
+    from {
+        transform: translate(600px,300px);
+    }
+    
+    to {
+        transform: translate(600px,0);
+    }
+}

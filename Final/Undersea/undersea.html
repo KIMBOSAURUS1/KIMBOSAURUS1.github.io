@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>  
+        <title>Undersea</title>
+        <link rel="shortcut icon" type="image/jpg" href="https://i.pinimg.com/originals/c3/c3/e4/c3c3e4ba6a37606ed7742098eec96b65.png" />
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
+        <script src="java.js"></script>
+    </head>
+
+<body>
+    <!-- Background Video -->
+    <div class="video-background">
+        <video autoplay muted loop id="myVideo">
+            <source src="Undersea.mp4" type="video/mp4">
+        </video>
+        
+       <!-- Teleports -->
+
+        <div id="imgDiv">
+            <!-- Fish link -->
+            <a href="../Final_Main_Page/index.html">
+            <img id="fish" src="fish.gif" onclick = "changePlace('fish')">  
+            </a>
+            <!-- Bee link -->
+            <img id="bee" src="bee.png" onclick = "changePlace('bee')">
+        </div>
+        <img id="bubble" src="bubble.png" onclick="changePlace('bubble')">
+        <img id="fish3" src="fish3.gif">
+        <img id="fish4" src="fish4.gif">
+        
+    </div>
+</body>
+
+  </html>

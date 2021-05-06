@@ -1,0 +1,102 @@
+body{
+background-color: lightskyblue;
+}
+
+#imgDiv {
+    display: flex;
+    justify-content: space-between;
+    margin-inline-start: 40px;
+    /* justify-content: space-around; */
+    /* flex-wrap: wrap; */
+
+
+}
+
+#door1 {
+    width: 300px;
+    height: 500px;
+    margin: auto;
+
+}
+
+#door2 {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+
+}
+
+#door3 {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+
+}
+
+#door4 {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+
+}
+
+#door5 {
+    width: 300px;
+    height: 500px;
+    margin: auto;
+
+}
+
+#door6 {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+
+}
+
+#door7 {
+    width: 300px;
+    height: 500px;
+    margin: auto;
+
+}
+
+#door8 {
+    width: 700px;
+    height: 500px;
+    margin: auto;
+
+}
+
+#door9 {
+    width: 300px;
+    height: 500px;
+    margin: auto;
+
+}
+
+#door10 {
+    width: 700px;
+    height: 400px;
+    margin: auto;
+
+}
+
+#door11 {
+    width: 100px;
+    height: 200px;
+    margin: auto;
+
+}
+
+#door12 {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+
+}
+
+a{
+    margin: auto;
+    z-index: 4;
+}

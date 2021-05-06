@@ -1,0 +1,42 @@
+body{
+    background-color: lightskyblue;
+    text-align: right;
+}
+
+#beehive {
+    position: absolute;
+    bottom: 40px;
+    right: -20px;
+    width: 600px;
+    height: 400px;
+    z-index: 2;
+}
+
+#bee {
+    position: absolute;
+    top: 40px;
+    left: -30px;
+    width: 70px;
+    height: 70px;
+    /* z-index: 3; */
+    padding: 4vw;
+    animation-name: motion;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+}
+
+a{
+    margin: auto;
+    z-index: 4;
+  }
+  
+  @keyframes motion {
+    from {
+        transform: translate(-30px,400px);
+    }
+    
+    to {
+        transform: translate(1200px,400px);
+    }
+  }
+

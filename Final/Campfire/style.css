@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+}
+
+h2{
+    z-index: 5;
+}
+
+#myVideo {
+    position: relative;
+    width: 500px;
+    height: 600px;
+    left: 500px;
+    top: 50px;
+    z-index: 2;
+    /* min-width: 100%;
+    min-height: 100%;
+    max-width: 1500px; */
+    background: transparent url(Campfire_Video.mp4)no-repeat 0 0;
+  }
+
+  #imgDiv {
+    display: flex;
+    justify-content: space-between;
+ }
+
+#door{
+  position: absolute;
+  top: 30px;
+  left: 350px;
+    width: 580px;
+    height: 695px;
+    /* margin: auto; */
+    z-index: 3;
+}
+
+#bee {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  /* z-index: 3; */
+  animation-name: motion;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+a{
+  margin: auto;
+  z-index: 4;
+}
+
+@keyframes motion {
+  from {
+      transform: translate(-800px,300px);
+  }
+  
+  to {
+      transform: translate(1920px,300px);
+  }
+}
+
+
+ 

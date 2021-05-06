@@ -1,0 +1,101 @@
+body{
+    background-color: lightskyblue;
+}
+
+#myVideo {
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 1500px;
+    background: transparent url(Undersea.mp4)no-repeat 0 0;
+  }
+
+#fish {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 250px;
+    height: 200px;
+    margin: auto;
+    z-index: 2;
+    animation-name: motion;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+}
+
+#fish3 {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    width: 250px;
+    height: 200px;
+    margin: auto;
+    z-index: 2;
+    animation-name: motion;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+#fish4 {
+    position: absolute;
+    bottom: 200px;
+    left: 10px;
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    z-index: 2;
+    animation-name: motion;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+#imgDiv {
+    display: flex;
+    justify-content: space-between;
+ }
+
+
+#bee {
+    position: absolute;
+    bottom: 300px;
+    left: -30px;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    padding: 3vw;
+    z-index: 3;
+    animation-name: motion;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+#bubble {
+    position: absolute;
+    bottom: 285px;
+    left: -50px;
+    width: 140px;
+    height: 140px;
+    margin: auto;
+    padding: 3vw;
+    z-index: 3;
+    animation-name: motion;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+a{
+    margin: auto;
+    z-index: 4;
+}
+
+@keyframes motion {
+    from {
+        transform: translate(-30px,100px);
+    }
+    
+    to {
+        transform: translate(1920px,100px);
+    }
+}
